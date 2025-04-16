@@ -1,4 +1,4 @@
-# build for unix uuid/uuid.h
+# simulate unix uuid/uuid.h on windows
 
 ## build
 
