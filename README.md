@@ -16,7 +16,7 @@ add_executable(${PROJECT_NAME} main.c)
 target_link_libraries(${PROJECT_NAME} PRIVATE stduuid)
 
 ```
-
+<!-- 
 change:
 
 cmake install uuid/uuid.h
@@ -70,7 +70,7 @@ inline void uuid_unparse(const uuid_t uu, char* out) {
 inline void uuid_clear(uuid_t uu) {
     std::memset(uu, 0, 16);
 }
-```
+``` -->
 
 
 

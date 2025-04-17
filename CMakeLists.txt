@@ -50,10 +50,10 @@ if (NOT UUID_USING_CXX20_SPAN)
     install(DIRECTORY gsl DESTINATION include)
 endif ()
 
-target_include_directories(${PROJECT_NAME} INTERFACE
-        $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}>
-        $<INSTALL_INTERFACE:include>)
-install(DIRECTORY include/uuid DESTINATION include)
+# target_include_directories(${PROJECT_NAME} INTERFACE
+#         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}>
+#         $<INSTALL_INTERFACE:include>)
+# install(DIRECTORY include/uuid DESTINATION include)
 
 if(UUID_ENABLE_INSTALL)
     # Install step and imported target
